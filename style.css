@@ -1,0 +1,110 @@
+
+
+body{ 
+    background-image: repeating-radial-gradient(#FFF78A, #F9E8D9, #FAEED1);
+    cursor: url("./hombre-de-jengibre.png"), auto;
+}
+
+div{
+    /* background-color: #88AB8E; */
+    /* padding: 50px 10px 50px 10px; */
+    text-align: left;
+}
+
+.main-container{
+    /* background-color: #7b7fb8d5; */
+    width: 100%; /*vw se refiere a view width o sea que depende de la pantalla y cuantos pixeles disponibles tiene. */
+    height: 100%; /*vh de refiere a view height*/
+    overflow: hidden;
+}
+
+img {
+    border-radius: 50px;
+}
+
+img:hover{
+    border-style: groove;
+    cursor: url("./copo-de-nieve.png"), auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: #DB7D76;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 100;
+    color: #d86690;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    text-align: center;
+    color: #d86690;
+}
+
+.hobbies{
+    list-style-type: square;
+}
+
+.hobbies:hover{
+    color: #5F0F40;
+    font-size: 1.5em;
+    transition: 1s;
+}
+
+.links {
+    color: #0F2167;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5F0F40;
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: url("./copo-de-nieve.png"), auto;
+}
+
+#u-list {   
+    list-style-type: none;
+}
+
+#list-main{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.o-list{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.project{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1GotkZMufOlO1bl2Pip0rj43F9ukgThvjfQ&usqp=CAU);
+    opacity: 80%;
+    margin: 1px;
+    padding: 1px;
+}
+
+#project-tit{
+    color: wheat;
+}
+
+form {
+    color: #d86690;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hobbies-li{
+    list-style-type: square;
+    text-decoration: none;
+    text-align: center;
+}
